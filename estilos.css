@@ -190,8 +190,9 @@ button {
 }
 
 .seccion-contacto{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("https://www.shutterstock.com/image-photo/communication-support-call-center-customer-600nw-693112153.jpg");
+    background: linear-gradient(rgba(70, 85, 85, 0.5), rgba(0, 0, 0, 0.7)),
+    url("telefono.jpg");
+    
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -285,5 +286,34 @@ button {
   .seguridad h2 {
     margin-top: 20px;
     margin-bottom: 30px;
+  }
+
+  .telefono img{
+    width: 50px;
+
+  }
+
+  .seccion-contacto h3{
+    font-size: 2rem;
+  }
+
+  .telefono{
+    margin-top: 30px;
+  }
+  .telefono p{
+    font-size: 1.5rem;
+  }
+
+  .ubicacion{
+    margin-top: 30px;
+  }
+
+  .ubicacion img{
+    width: 50px;
+    margin-right: 20px;
+ 
+  }
+  .ubicacion p{
+    font-size: 1.2rem;
   }
 }
