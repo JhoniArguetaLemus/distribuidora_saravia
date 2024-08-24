@@ -180,6 +180,7 @@ button{
  
     padding: 20px;
     border-radius: 15px;
+    transition: .3s ease-in-out;
 }
 
 .consejo:hover{
@@ -192,4 +193,96 @@ button{
 .mision:hover, .valores:hover, .historia:hover{
     transform: scale(1.1);
     
+}
+
+.promocion{
+    transition: .3s ease-in-out;
+}
+.promocion:hover{
+    transform: scale(1.1);
+    
+   
+}
+
+
+@media screen and (max-width:767px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .header-container{
+        width: 90%;
+   
+    }
+    
+    .header-container h1{
+        font-size: 1.5rem;
+    }
+    .header-container p{
+        font-size: 1rem;
+    }
+
+    .header-container .botones{
+        display: flex;
+        flex-direction: column;
+     
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .botones button{
+        margin: 20px;
+    }
+
+    .beneficios img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .beneficios h2{
+     
+        margin: 20px;
+    }
+
+    .beneficio-contenedor{
+     
+        width: 100%;
+       
+    }
+    .beneficios .beneficio{
+       margin-left: 0;
+       width: 100%;
+
+        
+    }
+
+
+    .precios_promociones .promociones{
+        margin-top: 400px;
+        width: 100%;
+    
+    }
+
+   .promociones .promocion{
+   
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+        margin-bottom: 10px;
+
+    }
+
+    .seguridad{
+        margin-top: 300px;
+    }
+
+    .seguridad h2{
+       margin-top: 20px;
+       margin-bottom: 30px;
+    }
 }
